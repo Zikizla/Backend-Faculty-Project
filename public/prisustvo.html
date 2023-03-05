@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prisustva</title>
+    <link href="prisustvo.css" rel="stylesheet">
+</head>
+<body>
+<div class="forma-omotac">
+    <div class="forma">
+        <div class="forma-naslov">PRETRAGA PRISUSTVA</div>
+        <div class="forma-item">
+            <input placeholder="Kod predmeta" class="forma-item-input" id="kod-predmeta" type="text">
+        </div>
+        <div class="forma-item">
+            <input placeholder="Index studenta" class="forma-item-input" id="index-studenta" type="text">
+        </div>
+        <div class="forma-item">
+            <input placeholder="Sedmica" class="forma-item-input" id="sedmica" type="number">
+        </div>
+        <div class="forma-button-omotac">
+            <button class="forma-button" id="pretraziDugme">PRETRAZI</button>
+        </div>
+    </div>
+    <div id="greska" class="forma-greska"></div>
+</div>
+<div id="rezultat" class="rezultat-omotac"></div>
+<script src="./AjaxPozivi.js"></script>
+<script src="./prisustvo.js"></script>
+</body>
+</html>
